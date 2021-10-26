@@ -36,6 +36,40 @@ mydata
 
 ## Load the data dictionary
 mydictionary <- datalabels::clean_dictionary
+mydictionary
+#>    question_id                                      label
+#> 1           a1                                     Gender
+#> 2           a2                                        Age
+#> 3           a3                 Highest level of education
+#> 4           a4                             Marital status
+#> 5           b1                          Are you employed?
+#> 6           b2                Indicate type of employment
+#> 7           b3 How satisfied are you with your employment
+#> 8           b4                    Do you have a business?
+#> 9           d1           Have you ever programmed before?
+#> 10          d2    Which of these languages have you used?
+#>                                                                option_labels
+#> 1                                                                Male,Female
+#> 2                                                                       <NA>
+#> 3                                            Tertiary,Secondary,Primary,None
+#> 4                                            Single,Married,Divorced,Widowed
+#> 5                                                                     Yes,No
+#> 6                          Self employed,Government employee,Employed by NGO
+#> 7  Very Disatisfied,Disatified,Moderately satisfied,Satisfied,Very Satisfied
+#> 8                                                                     Yes,No
+#> 9                                                                     Yes,No
+#> 10                                    R,Python,C++,Ruby,Julia,PHP,Javascript
+#>          option_values    type
+#> 1                 1, 2  Select
+#> 2                 <NA>     Int
+#> 3           1, 2, 3, 4  Select
+#> 4           1, 2, 3, 4  Select
+#> 5                 1, 2  Select
+#> 6              1, 2, 3  Select
+#> 7        1, 2, 3, 4, 5  Select
+#> 8                 1, 2  Select
+#> 9                 1, 2  Select
+#> 10 1, 2, 3, 4, 5, 6, 7 MSelect
 
 ## Create the factors
 

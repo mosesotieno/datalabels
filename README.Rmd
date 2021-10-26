@@ -36,6 +36,7 @@ mydata
 
 ## Load the data dictionary
 mydictionary <- datalabels::clean_dictionary
+mydictionary
 
 ## Create the factors
 
