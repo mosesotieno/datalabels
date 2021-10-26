@@ -36,7 +36,7 @@ mydata
 
 ## Load the data dictionary
 mydictionary <- datalabels::clean_dictionary
-mydictionary
+mydictionary[, 1:3]
 #>    question_id                                      label
 #> 1           a1                                     Gender
 #> 2           a2                                        Age
@@ -59,17 +59,6 @@ mydictionary
 #> 8                                                                     Yes,No
 #> 9                                                                     Yes,No
 #> 10                                    R,Python,C++,Ruby,Julia,PHP,Javascript
-#>          option_values    type
-#> 1                 1, 2  Select
-#> 2                 <NA>     Int
-#> 3           1, 2, 3, 4  Select
-#> 4           1, 2, 3, 4  Select
-#> 5                 1, 2  Select
-#> 6              1, 2, 3  Select
-#> 7        1, 2, 3, 4, 5  Select
-#> 8                 1, 2  Select
-#> 9                 1, 2  Select
-#> 10 1, 2, 3, 4, 5, 6, 7 MSelect
 
 ## Create the factors
 
