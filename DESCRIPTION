@@ -1,0 +1,26 @@
+Package: datalabels
+Title: Labels a Dataset from Data Dictionary
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Moses",
+           family = "Otieno",
+           role = c("aut", "cre"),
+           email = "mosotieno25@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0002-9977-8220"))
+Description: Labelling a dataset from a data dictionary can be quite 
+             daunting task. This package makes it very easy to 
+             label your dataset based on the data dictionary provided.
+             The dataset is downloaded from CommCare HQ.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    magrittr,
+    readxl,
+    rlang,
+    stringr
+Depends: 
+    R (>= 2.10)
