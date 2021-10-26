@@ -25,7 +25,7 @@ devtools::install_github("mosesotieno/datalabels")
 ```
 ## Example
 
-To create factors and label the variables proceed as follows
+To create factors and label the variables proceed as follows:
 
 ```{r example}
 library(datalabels)
